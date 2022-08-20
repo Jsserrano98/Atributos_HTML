@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--Aca va el atributo lang y translate-->
+<html lang="en" translate="yes">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+</head> 
+<body>
+     <!--Aca van los atributos-->
+     <div id="Atributos">
+            <div>Aquí irá un anuncio</div>
+            <div id="articulo">Aquí irá el contenido de texto del artículo</div>
+            <div>Aquí irá un anuncio</div>
+    </div>
+    <div id="pagina">
+        <div class="anuncio">Aquí irá un anuncio</div>
+        <div id="articulo">Aquí irá el contenido de texto del artículo</div>
+        <div class="anuncio">Aquí irá un anuncio</div>
+      </div>
+      <!--Aca va el atributo de translate en negativo-->
+      <div>
+        <p>
+            hi world, i'm your next president of  <span translate="no">United States</span>
+        </p>
+      </div>
+      <!--Aca van los tooltips-->
+      <div>
+        <img src="images/neymar.jpg" height="400px"
+          title="¡Este es el mejor de el mundo!"/>
+      </div>
+      <!--Aca van los metadatos-->
+      <div id="compartir">
+        <a href="https://www.instagram.com/juan7w7.0_0/"
+           data-share="43">instagram</a>
+        <a href="https://www.facebook.com/sebastian.serrano.10485"
+           data-share="66">Facebook</a>
+        <a href="https://api.whatsapp.com/send?phone=3108156932"
+           data-share="38">Whatsapp</a>
+      </div>
+      <!--Aca va el de accesskey-->
+      <form>
+        <input accesskey="N" placeholder="Nombre (ALT+N)" /> <!-- Campo de datos -->
+        <input accesskey="A" placeholder="Apellidos (ALT+A)" /> <!-- Campo de datos -->
+        <a accesskey="L" href="#">Enlace (ALT+L)</a> <!-- Enlace HTML -->
+        <button accesskey="B">Botón (ALT+B)</button> <!-- Botón HTML -->
+      </form>
+      <!--Aca el de Direccionalidad de el contenido-->
+      <p>Esto es un ejemplo de texto con direccionalidad de izquierda a derecha.</p>
+<p dir="rtl">Esto es un ejemplo de texto con direccionalidad de derecha a izquierda.</p>
+<!--Aca va el de style-->
+<p style="background: red; color: white;">Esto es un mensaje con estilos CSS</p>
+</body>
+</html>
